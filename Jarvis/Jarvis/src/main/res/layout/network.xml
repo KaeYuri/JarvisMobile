@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc_ab_bottom_solid_dark_holo"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/network_description"
+        android:id="@+id/textView"
+        android:textColor="#16728a"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="39dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/ip"
+        android:id="@+id/textView2"
+        android:textColor="#16728A"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:background="#474749"
+        android:layout_weight="0.05"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/port"
+        android:id="@+id/textView3"
+        android:textColor="#16728A"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_weight="0.05"
+        android:background="#474749"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="200dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/validate_network"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:clickable="true" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc_ab_bottom_solid_dark_holo"
+    android:weightSum="1"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:text="Speak !"
+        android:id="@+id/button"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:clickable="true"
+        android:layout_weight="0.17"
+        android:textSize="50dp" />
+</LinearLayout>

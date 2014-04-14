@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc_ab_bottom_solid_dark_holo"
+    android:weightSum="1"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/profil_description"
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:textColor="#16728A"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/pseudo"
+        android:id="@+id/textView2"
+        android:textColor="#16728A"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:background="#474749"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.05"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/langue"
+        android:id="@+id/textView3"
+        android:textColor="#16728A"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp" />
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="0.05"
+        android:background="#474749" />
+
+</LinearLayout>
